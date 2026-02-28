@@ -5,6 +5,9 @@
 #include "ui_start.h"
 start::start(QWidget* parent) : QWidget(parent), ui(new Ui::start) {
     ui->setupUi(this);
+    scaledBg = QPixmap(":/startBackground.jpg")
+                   .scaled(this->size(), Qt::IgnoreAspectRatio,
+                           Qt::SmoothTransformation);
 }
 
 start::~start() { delete ui; }
@@ -29,8 +32,12 @@ void start::getBack() {
     this->show();
 }
 void start::paintEvent(QPaintEvent*) {
-    qDebug() << "Trigerring paintEvent!";
+    // qDebug() << "Trigerring paintEvent!";
     QPainter painter(this);
-    painter.drawPixmap(rect(), QPixmap(":/images/startBackground.png"),
-                       QRect());
+    painter.drawPixmap(rect(), scaledBg, QRect());
+}
+
+void start::on_pushSave_clicked() {
+    this->hide();
+    emit getSavings();
 }

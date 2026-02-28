@@ -26,6 +26,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         start.h start.cpp start.ui
         game.h game.cpp
         res.qrc
+        mylabel.h mylabel.cpp
+        saveform.h saveform.cpp saveform.ui
+
 
 
 

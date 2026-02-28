@@ -27,10 +27,15 @@ public slots:
 
 signals:
 
-    void startGame();
+    void startGame(QString name = "");
+    void getSavings();
+
+private slots:
+    void on_pushSave_clicked();
 
 private:
     Ui::start* ui;
+    QPixmap scaledBg;
 };
 
 #endif  // START_H

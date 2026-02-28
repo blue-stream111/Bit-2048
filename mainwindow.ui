@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>855</width>
-    <height>625</height>
+    <width>1002</width>
+    <height>598</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,9 +18,7 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
-    <string notr="true">    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,
-                                      stop:0 #f0f0f0, 
-                                      stop:1 #c0c0c0);</string>
+    <string notr="true"/>
    </property>
    <widget class="QWidget" name="gridLayoutWidget">
     <property name="geometry">
@@ -32,197 +30,8 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="1" column="0">
-      <widget class="QLabel" name="label_10">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: rgb(255, 170, 127);
-border:1px solid black
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QLabel" name="label_21">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: rgb(255, 170, 127);
-border:1px solid black
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
      <item row="0" column="1">
-      <widget class="QLabel" name="label_01">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: rgb(255, 170, 127);
-border:1px solid black
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="QLabel" name="label_20">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: rgb(255, 170, 127);
-border:1px solid black
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="2">
-      <widget class="QLabel" name="label_22">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: rgb(255, 170, 127);
-border:1px solid black
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QLabel" name="label_30">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: rgb(255, 170, 127);
-border:1px solid black
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="2">
-      <widget class="QLabel" name="label_02">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: rgb(255, 170, 127);
-border:1px solid black
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
-      <widget class="QLabel" name="label_11">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: rgb(255, 170, 127);
-border:1px solid black
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="0">
-      <widget class="QLabel" name="label_00">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: rgb(255, 170, 127);
-border:1px solid black
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="2">
-      <widget class="QLabel" name="label_12">
+      <widget class="MyLabel" name="label_01">
        <property name="font">
         <font>
          <family>Consolas</family>
@@ -243,91 +52,7 @@ border:1px solid black
       </widget>
      </item>
      <item row="2" column="3">
-      <widget class="QLabel" name="label_23">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: rgb(255, 170, 127);
-border:1px solid black
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="1">
-      <widget class="QLabel" name="label_31">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: rgb(255, 170, 127);
-border:1px solid black
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="2">
-      <widget class="QLabel" name="label_32">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: rgb(255, 170, 127);
-border:1px solid black
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="3">
-      <widget class="QLabel" name="label_33">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: rgb(255, 170, 127);
-border:1px solid black
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignmentFlag::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="3">
-      <widget class="QLabel" name="label_13">
+      <widget class="MyLabel" name="label_23">
        <property name="font">
         <font>
          <family>Consolas</family>
@@ -348,7 +73,280 @@ border:1px solid black
       </widget>
      </item>
      <item row="0" column="3">
-      <widget class="QLabel" name="label_03">
+      <widget class="MyLabel" name="label_03">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255, 170, 127);
+border:1px solid black
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="MyLabel" name="label_20">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255, 170, 127);
+border:1px solid black
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="MyLabel" name="label_21">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255, 170, 127);
+border:1px solid black
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="MyLabel" name="label_30">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255, 170, 127);
+border:1px solid black
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="MyLabel" name="label_10">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255, 170, 127);
+border:1px solid black
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="MyLabel" name="label_33">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255, 170, 127);
+border:1px solid black
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="MyLabel" name="label_00">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255, 170, 127);
+border:1px solid black
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="MyLabel" name="label_31">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255, 170, 127);
+border:1px solid black
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="MyLabel" name="label_13">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255, 170, 127);
+border:1px solid black
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="MyLabel" name="label_12">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255, 170, 127);
+border:1px solid black
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="MyLabel" name="label_11">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255, 170, 127);
+border:1px solid black
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="MyLabel" name="label_02">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255, 170, 127);
+border:1px solid black
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="MyLabel" name="label_32">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255, 170, 127);
+border:1px solid black
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="MyLabel" name="label_22">
        <property name="font">
         <font>
          <family>Consolas</family>
@@ -393,7 +391,7 @@ border:1px solid black
     <property name="geometry">
      <rect>
       <x>460</x>
-      <y>160</y>
+      <y>50</y>
       <width>101</width>
       <height>41</height>
      </rect>
@@ -412,12 +410,18 @@ border:1px solid black
     <property name="geometry">
      <rect>
       <x>680</x>
-      <y>117</y>
-      <width>171</width>
+      <y>110</y>
+      <width>261</width>
       <height>271</height>
      </rect>
     </property>
     <layout class="QFormLayout" name="formLayout">
+     <property name="fieldGrowthPolicy">
+      <enum>QFormLayout::FieldGrowthPolicy::ExpandingFieldsGrow</enum>
+     </property>
+     <property name="horizontalSpacing">
+      <number>2</number>
+     </property>
      <item row="0" column="0">
       <widget class="QLabel" name="rk1">
        <property name="sizePolicy">
@@ -563,6 +567,9 @@ border:1px solid black
      </item>
      <item row="0" column="1">
       <widget class="QLabel" name="score1">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -579,8 +586,8 @@ border:1px solid black
    <widget class="QLabel" name="labelRank">
     <property name="geometry">
      <rect>
-      <x>710</x>
-      <y>80</y>
+      <x>730</x>
+      <y>70</y>
       <width>91</width>
       <height>31</height>
      </rect>
@@ -602,7 +609,7 @@ border:1px solid black
     <property name="geometry">
      <rect>
       <x>460</x>
-      <y>280</y>
+      <y>150</y>
       <width>101</width>
       <height>41</height>
      </rect>
@@ -620,7 +627,7 @@ border:1px solid black
    <widget class="QPushButton" name="pushStart">
     <property name="geometry">
      <rect>
-      <x>440</x>
+      <x>450</x>
       <y>440</y>
       <width>111</width>
       <height>41</height>
@@ -633,7 +640,7 @@ border:1px solid black
    <widget class="QPushButton" name="pushSuspend">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>590</x>
       <y>440</y>
       <width>111</width>
       <height>41</height>
@@ -646,7 +653,7 @@ border:1px solid black
    <widget class="QPushButton" name="pushBack">
     <property name="geometry">
      <rect>
-      <x>720</x>
+      <x>730</x>
       <y>440</y>
       <width>111</width>
       <height>41</height>
@@ -659,8 +666,8 @@ border:1px solid black
    <widget class="QLabel" name="labelTimer">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>210</y>
+      <x>450</x>
+      <y>100</y>
       <width>171</width>
       <height>51</height>
      </rect>
@@ -668,7 +675,7 @@ border:1px solid black
     <property name="font">
      <font>
       <family>Consolas</family>
-      <pointsize>28</pointsize>
+      <pointsize>24</pointsize>
       <bold>true</bold>
      </font>
     </property>
@@ -679,8 +686,8 @@ border:1px solid black
    <widget class="QLabel" name="labelScore">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>330</y>
+      <x>450</x>
+      <y>200</y>
       <width>171</width>
       <height>51</height>
      </rect>
@@ -688,12 +695,77 @@ border:1px solid black
     <property name="font">
      <font>
       <family>Consolas</family>
-      <pointsize>28</pointsize>
+      <pointsize>24</pointsize>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushLast">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>440</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>上一步</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelStep">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>310</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Consolas</family>
+      <pointsize>24</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelStep_">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>260</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>当前步数</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushSave">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>380</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>存档</string>
     </property>
    </widget>
   </widget>
@@ -703,12 +775,19 @@ border:1px solid black
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>855</width>
+     <width>1002</width>
      <height>22</height>
     </rect>
    </property>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyLabel</class>
+   <extends>QLabel</extends>
+   <header location="global">../../../../mylabel.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

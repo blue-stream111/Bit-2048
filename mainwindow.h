@@ -1,12 +1,18 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include <QFile>
+#include <QInputDialog>
+#include <QJsonArray>
+#include <QJsonDocument>
+#include <QJsonObject>
 #include <QKeyEvent>
 #include <QMainWindow>
 #include <QTimer>
 #include <algorithm>
 
 #include "game.h"
+#include "mylabel.h"
 #define BOARD_LENGTH 4
 #define BOARD_WIDTH 4
 
@@ -16,6 +22,7 @@ class MainWindow;
 }
 QT_END_NAMESPACE
 struct SCORE {
+    QString name;
     int score;
     int time;
     bool operator<(const SCORE& s) const {
@@ -28,8 +35,10 @@ class MainWindow : public QMainWindow {
 
 public:
     MainWindow(QWidget* parent = nullptr);
+    void paintEvent(QPaintEvent*) override;
     ~MainWindow();
 
+protected:
 public slots:
     void on_pushStart_clicked();
 
@@ -37,7 +46,7 @@ public slots:
 
     void on_pushBack_clicked();
 
-    void getStartGame();
+    void getStartGame(QString fileName = "");
 
     void showInfo();
 
@@ -47,8 +56,11 @@ public slots:
 
     void handleLose();
 
+    void handleBomb(int x, int y);
+
 signals:
     void back();
+    void recordSaving(int time, int steps, QString name);
 
 private:
     Ui::MainWindow* ui;
@@ -56,15 +68,21 @@ private:
     QTimer* infoTimer;
     bool gameIsOn;
     QString toBinary(int val);
-    void setColor(int x, int y, int val);
+    // void setColor(int x, int y, int val);
     void gameOver();
-    void openNewGame();
-    void updateRank();
+    void openNewGame(QString name, QString filePath = "");
+    void updateRank(bool first = 0);
     QString handleTime(int sec);
+    void loadRank();
+    void saveRank();
     SCORE scores[7];
     int tail;
+    QPixmap bg;
 
 protected:
     void keyPressEvent(QKeyEvent* event) override;
+private slots:
+    void on_pushLast_clicked();
+    void on_pushSave_clicked();
 };
 #endif  // MAINWINDOW_H
